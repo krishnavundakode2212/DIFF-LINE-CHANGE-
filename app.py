@@ -1,6 +1,6 @@
 import socket
 
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM) ambika
 
 client.connect(("127.0.0.1", 900080))
 
@@ -8,4 +8,4 @@ message = client.recv(1234)
 
 print(message.decode())
 
-client.close()
+client.close() 
